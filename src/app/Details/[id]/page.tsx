@@ -41,7 +41,14 @@ const Inner = ({ params }: Props) => {
         </div>
         <div>
           <h2 className='text-black text-2xl lg:text-3xl  mb-2 flex flex-col gap-2'>Reza</h2>
-          <iframe className='rounded-xl w-96 h-full' src={orixa.reza} title={orixa.name} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <iframe
+            className="rounded-xl w-96 h-full border-0"
+            src={orixa.reza}
+            title={orixa.name}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
         </div>
         <div className='hidden'>
           <p>Player para áudio ou vídeo pode ser inserido aqui.</p>
