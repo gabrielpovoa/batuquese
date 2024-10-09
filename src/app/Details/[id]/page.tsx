@@ -22,7 +22,7 @@ const Inner = ({ params }: Props) => {
 
   return (
     <div className="w-full p-3 lg:p-0 bg-[#FCFCFC] rounded-lg flex flex-col lg:flex-row lg:gap-4 shadow-sm">
-      
+
       <Image
         src={orixa.avatar}
         alt={orixa.name}
@@ -41,9 +41,9 @@ const Inner = ({ params }: Props) => {
         </div>
         <div>
           <h2 className='text-black text-2xl lg:text-3xl  mb-2 flex flex-col gap-2'>Reza</h2>
-          <p className='text-black text-sm lg:text-lg '>{orixa.reza}</p>
+          <iframe className='rounded-xl w-96 h-full' src={orixa.reza} title={orixa.name} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-        <div>
+        <div className='hidden'>
           <p>Player para áudio ou vídeo pode ser inserido aqui.</p>
         </div>
       </div>
