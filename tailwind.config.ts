@@ -9,6 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        yellow: '#EEC643',
+        red: '#F13030',
+        green: '#0B6E4F',
+        blue: '#0A014F',
+        pink: '#F6CACA',
+        purple: '#885A89',
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
