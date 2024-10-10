@@ -39,10 +39,10 @@ const Inner = ({ params }: Props) => {
             <p className='text-black text-sm lg:text-lg'>{orixa.greeting}</p>
           </div>
         </div>
-        <div>
+        <div className=''>
           <h2 className='text-black text-2xl lg:text-3xl  mb-2 flex flex-col gap-2'>Reza</h2>
           <iframe
-            className="rounded-xl w-96 h-full border-0"
+            className="rounded-xl lg:w-[30rem] max-w-full h-full border-0"
             src={orixa.reza}
             title={orixa.name}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

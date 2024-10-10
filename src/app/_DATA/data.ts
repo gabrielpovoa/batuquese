@@ -9,9 +9,9 @@ import Xapana from '@/app/assets/xapana.jpg';
 import Ossain from '@/app/assets/ossain.jpg';
 import Oba from '@/app/assets/oba.jpg';
 import Oxum from '@/app/assets/oxum.jpg';
-import Iemanja from '@/app/assets/iemanja.png';
+import Iemanja from '@/app/assets/iemanja.jpg';
 import Oxala from '@/app/assets/oxala.jpg';
-import ibedji from '@/app/assets/ibedji.jpeg';
+import ibedji from '@/app/assets/ibedji.jpg';
 
 export const orixas: Orixa[] = [
   {
@@ -22,6 +22,11 @@ export const orixas: Orixa[] = [
     greeting:"Alúpo ou Lalúpo - Dia da Semana - Segunda-feira e Sexta (Bará Agelú) - Número: 07 e seus múltiplos - Cor: Vermelho",
     song: 'Caminho de Bará, Bará, meu senhor',
     reza: 'https://www.youtube.com/embed/B2M-6B3WKvU',
+    post:[{
+      id:1,
+      item:Bara,
+    }]
+    
   },
   {
     id: 2,

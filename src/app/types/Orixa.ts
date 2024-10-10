@@ -6,5 +6,6 @@ export type Orixa = {
     song?: string;
     reza?: string;
     greeting?:string;
+    post?: { id: number; item: any }[];
   };
   
